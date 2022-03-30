@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+ <classes>
+              <class name="LMS_API_RestApi.RestApi_Get"/>
+              <class name="LMS_API_RestApi.RestApi_POST"/>
+              <class name="LMS_API_RestApi.RestApi_PUT"/>
+              <class name="LMS_API_RestApi.RestApi_Delete"/>
+              <class name="JOBS_APT_RestApi.Jobs_ApiGet"/>
+              <class name="JOBS_APT_RestApi.Jobs_ApiPost"/>
+              <class name="JOBS_APT_RestApi.Jobs_ApiPut"/>
+              <class name="JOBS_APT_RestApi.Jobs_ApiDelete"/>
+          </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
